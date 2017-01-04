@@ -15,15 +15,15 @@
 
 ## 补充：图像标记\<img> ★
 
-- 图像标记\<img> 
+- 图像标记`\<img> `
 
 图像标记\<img>为单标记，用以插入图像及设定图像属性
 
-\<img border="0" src= "cat6.gif" width="30" height="30">
+`<img border="0" src= "cat6.gif" width="30" height="30">`
 
-\<img src="/i/ct_netscape.jpg" />
+\`<img src="/i/ct_netscape.jpg" />`
 
-\<img src="http://www.w3school.com.cn/i/w3school_logo_white.gif" />
+`<img src="http://www.w3school.com.cn/i/w3school_logo_white.gif" />`
 
 ​		[http://www.w3school.com.cn/tiy/t.asp?f=html_image2](http://www.w3school.com.cn/tiy/t.asp?f=html_image2)
 
@@ -31,7 +31,7 @@
 
 [Http://www.w3school.com.cn/tiy/t.asp?f=html_image_float](http://www.w3school.com.cn/tiy/t.asp?f=html_image_float)
 
-\<img src ="/i/eg_cute.gif" align ="left"> 
+`<img src ="/i/eg_cute.gif" align ="left"> `
 
 
 
