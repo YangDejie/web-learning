@@ -23,6 +23,6 @@
   - [第十九章：PHP编程](chapter19)
   - [第二十章：Mysql数据库](chapter20)
   - [第二十一章：PHP Mysql专用接口动态网页设计](chapter21)
-  - [第二十二章：PHP Mysql ODBC接口动态网页设计](chapter23)
+  - [第二十二章：PHP Mysql ODBC接口动态网页设计](chapter22)
 - More
   - [课件下载](https://github.com/Yangdejie/web-learning/tree/master/ppt)
