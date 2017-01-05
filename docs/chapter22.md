@@ -13,21 +13,17 @@
 
 - **非永久性连接：**
 
-**  int odbc_connect(数据源名,用户名,口令,游标类型);**
+ int odbc_connect(数据源名,用户名,口令,游标类型);**
 
 - **非永久性连接关闭**
 
-**  int odbc_close(连接句柄);**
+  int odbc_close(连接句柄);**
 
-**  int odbc_close_all(void);**
+  int odbc_close_all(void);**
 
 - **永久性连接：**
 
-**  int odbc_pconnect(数据源名,用户名,口令,游标类型);**
-
-
-
-
+  int odbc_pconnect(数据源名,用户名,口令,游标类型);**
 
 # 3.建立系统DSN(1)
 
@@ -35,15 +31,15 @@
 
 - **格式1：PHP直接向ODBC发送SQL,并立刻执行**
 
-**  **int odbc_do(连接句柄,查询语句);
+int odbc_do(连接句柄,查询语句);
 
-**	或**
+​	或
 
-**  **int odbc_exec(连接句柄,查询语句);
+int odbc_exec(连接句柄,查询语句);
 
 - **格式2：PHP先向ODBC发送SQL,得到命令后再执行**
 
-**  **int odbc_prepare(连接句柄,查询语句);
+int odbc_prepare(连接句柄,查询语句);
 
   int odbc_execute(prepare_id,[参数数组]);
 
@@ -127,22 +123,24 @@ odbc_close($db_id);
 ?>
 ```
 
+
 # 6.ODBC数据库其他常用函数
 
-- 提交**
+
+- 提交
 
    格式：**int odbc_commit(int connection_id);**
 
-- **自动提交**
+- 自动提交
 
    格式：**int odbc_autocommit(int connection_id,**
 
-**                            int [OnOff]);**
+                     int [OnOff])
 
-- **取消操作**
+- 取消操作
 
    格式：**int odbc_rollback(int connection_id);**
 
-- **释放资源**
+- 释放资源
 
    格式：**int odbc_free_result(int result_id);**
